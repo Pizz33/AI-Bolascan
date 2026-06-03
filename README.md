@@ -1,6 +1,6 @@
 # AI-BolaScan — IDOR越权自动化检测工具
 
-> 以大语言模型（LLM）为核心分析引擎的智能越权检测工具，帮助研究人员发现传统规则扫描难以识别的IDOR越权问题
+> 以大语言模型（LLM）为核心分析的智能越权检测工具，帮助研究人员发现传统规则扫描难以识别的IDOR越权问题
 
 <img width="1280" height="640" alt="AI-Bolascan" src="https://github.com/user-attachments/assets/d8f9e5ed-051b-4f5c-955d-6d977e33e93e" />
 
