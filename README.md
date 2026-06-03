@@ -1,8 +1,8 @@
 # AI-BolaScan — IDOR越权自动化检测工具
 
-## 功能概览
+<img width="1280" height="640" alt="AI-Bolascan" src="https://github.com/user-attachments/assets/d8f9e5ed-051b-4f5c-955d-6d977e33e93e" />
 
-支持根据域名、关键字、漏洞状态、标记状态的筛选
+## 功能概览
 
 ![image-20260603180403497](https://photoscloud.oss-cn-shanghai.aliyuncs.com/image-20260603180403497.png)
 
