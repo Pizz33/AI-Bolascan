@@ -1,0 +1,53 @@
+enabled: true
+timeout: 60s
+max_body_bytes: 20000
+
+# ─── 选择一个 default 配置，取消注释即可 ─────────────────────────────────────
+
+# ── Claude 官方 API ───────────────────────────────────────────────────────────
+#  协议: Anthropic Messages API（x-api-key 头）
+#  模型: claude-opus-4-5、claude-sonnet-4-5、claude-haiku-4-5
+# default:
+#   provider: claude
+#   model: claude-sonnet-4-5-20251001
+#   api_key: ${ANTHROPIC_API_KEY}
+#   base_url: https://api.anthropic.com/v1/messages
+#   max_tokens: 512
+
+# ── GLM / 智谱 AI ─────────────────────────────────────────────────────────────
+#  协议: OpenAI Chat Completions（Authorization: Bearer）
+#  模型: glm-4-flash、glm-4-air、glm-4、glm-z1-flash
+# default:
+#   provider: glm
+#   model: glm-4-flash
+#   api_key: ${GLM_API_KEY}
+#   base_url: https://open.bigmodel.cn/api/paas/v4/chat/completions
+#   max_tokens: 512
+
+# ── DeepSeek（推理模式）──────────────────────────────────────────────────────
+#  协议: OpenAI Chat Completions（Authorization: Bearer）
+default:
+  provider: deepseek
+  model: deepseek-v4-pro
+  api_key: ${API_KEY}
+  base_url: https://api.deepseek.com/chat/completions
+  max_tokens: 512
+  reasoning_effort: high
+
+# ── OpenAI / Codex ───────────────────────────────────────────────────────────
+#  协议: OpenAI Chat Completions（Authorization: Bearer）
+# default:
+#   provider: openai
+#   model: gpt-4o
+#   api_key: ${OPENAI_API_KEY}
+#   base_url: https://api.openai.com/v1/chat/completions
+#   max_tokens: 512
+
+# ── Qwen / 通义千问 ───────────────────────────────────────────────────────────
+#  协议: OpenAI Chat Completions（Authorization: Bearer）
+# default:
+#   provider: qwen
+#   model: qwen-plus
+#   api_key: ${QWEN_API_KEY}
+#   base_url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions
+#   max_tokens: 512

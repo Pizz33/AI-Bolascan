@@ -1,0 +1,3 @@
+# IDOR 测试白名单，一行一个域名，支持通配符 *.example.com
+# 留空则测试所有域名
+# api.example.com

@@ -1,0 +1,37 @@
+# 域名黑名单 — 每行一条正则表达式，匹配的域名将被完全跳过不扫描
+# 行首 # 为注释，空行自动忽略
+
+# Google 全系服务
+(^|\.)google(apis|usercontent|syndication|tagmanager|analytics)?\.com$
+
+# Google 静态资源
+(^|\.)gstatic\.com$
+(^|\.)googleapis\.com$
+
+# Mozilla / Firefox
+(^|\.)mozilla\.(org|net|com)$
+(^|\.)firefox\.com$
+
+# Microsoft 全系
+(^|\.)microsoft(online)?\.com$
+(^|\.)windows(update)?\.com$
+(^|\.)msftconnecttest\.com$
+(^|\.)msftncsi\.com$
+(^|\.)live\.com$
+(^|\.)azure(fd)?\.net$
+
+# Apple
+(^|\.)apple\.com$
+(^|\.)icloud\.com$
+(^|\.)mzstatic\.com$
+
+# Cloudflare
+(^|\.)cloudflare(insights)?\.com$
+(^|\.)cloudfront\.net$
+
+# CDN 类
+(^|\.)jsdelivr\.net$
+(^|\.)unpkg\.com$
+(^|\.)cdnjs\.com$
+(^|\.)fastly\.net$
+(^|\.)akamai(edge|hd|technologies)?\.net$
